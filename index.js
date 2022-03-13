@@ -109,7 +109,8 @@ social:
   github: ${github}
   mastodon: ${mastodon}
   keybase: ${keybase}
----`
+---
+# Delete this line & blank fields!!.`
 
 //Encode string to URI format
 const encodedFileText = encodeURIComponent(fileText)
