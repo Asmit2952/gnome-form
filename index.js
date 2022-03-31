@@ -116,7 +116,7 @@ social:
 const encodedFileText = encodeURIComponent(fileText)
 
 //Generate a github link with query parameter
-const gitlabQueryLink = "https://gitlab.gnome.org/Teams/Engagement/websites/people-of-gnome/-/new/master/_data%2Fmembers?file=" + encodedFileText +"&file_name=" + filename
+const gitlabQueryLink = "https://gitlab.gnome.org/Teams/Engagement/websites/people-of-gnome/-/forks/new/master/_data%2Fmembers?file=" + encodedFileText +"&file_name=" + filename
   
 //Open in a new tab
 window.open(gitlabQueryLink) 
